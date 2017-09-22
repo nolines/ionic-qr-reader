@@ -7,6 +7,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
+import { ProfilePage } from '../pages/profile/profile';
 
 import { NgxQRCodeModule } from 'ngx-qrcode2';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
@@ -17,7 +18,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    ProfilePage
   ],
   imports: [
     BrowserModule,
@@ -28,7 +30,8 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    ProfilePage
   ],
   providers: [
     StatusBar,
